@@ -1,0 +1,27 @@
+{
+  "name": "openapi_server",
+  "version": "1.0.0",
+  "description": "OpenAPI Specification (OAS) based server",
+  "main": "index.js",
+  "scripts": {
+	"start": "json-server --config json-server.json callback.json",
+	"start_user": "json-server --config json-server.json index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pichuang/openapi_server.git"
+  },
+  "dependencies": {
+	"json-server": "^0.14.0"
+  },
+  "keywords": [
+    "openapi",
+    "oas"
+  ],
+  "author": "Phil Huang",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/pichuang/openapi_server/issues"
+  },
+  "homepage": "https://github.com/pichuang/openapi_server#readme"
+}
